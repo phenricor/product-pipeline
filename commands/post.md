@@ -17,7 +17,7 @@ Post the PRD and prototypes to Azure DevOps Work Item.
 
 If the work item doesn't exist, a new one will be created.
 
-This command completes the cycle started by `/product-pipeline:extract` or `/product-pipeline:analyse` and `/product-pipeline:prototype`.
+This command completes the cycle started by `/extract` or `/analyse` and `/prototype`.
 
 ---
 

@@ -213,4 +213,4 @@ Reply: ✓ Generated: {name} | Reference: {source}
 
 ## NEXT STEPS
 
-- `/product-pipeline:post {{id}}` - Upload PRD and prototypes to Azure DevOps
+- `/post {{id}}` - Upload PRD and prototypes to Azure DevOps

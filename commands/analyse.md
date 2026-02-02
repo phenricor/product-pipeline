@@ -203,8 +203,8 @@ Provide a summary including:
 
 ## NEXT STEPS
 
-- `/product-pipeline:prototype {{id}}` - Generate UI prototypes
-- `/product-pipeline:post {{id}}` - Create work item in Azure DevOps (if MCP server available)
+- `/prototype {{id}}` - Generate UI prototypes
+- `/post {{id}}` - Create work item in Azure DevOps (if MCP server available)
 
 ---
 

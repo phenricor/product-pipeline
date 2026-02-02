@@ -216,7 +216,7 @@ Provide a summary including:
 
 ## NEXT STEPS
 
-- `/product-pipeline:prototype {{workItemId}}` - Generate UI prototypes
+- `/prototype {{workItemId}}` - Generate UI prototypes
 
 ---
 
