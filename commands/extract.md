@@ -119,7 +119,7 @@ Be rigorous: Ask questions and suggest optimizations if needed, especially if th
 
 ### Step 2.4: Generate PRD
 
-Generate the PRD following the structure from prd-template skill.
+Generate the PRD following the structure from prd-template skill. Follow all the guidelines and structure format.
 
 **Key principles:**
 - Be proportional to complexity (simple requests = concise PRD)
