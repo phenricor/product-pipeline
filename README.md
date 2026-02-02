@@ -17,6 +17,24 @@ This plugin provides commands to streamline the product management workflow:
 
 **Recommended: Install locally** in each project where you want to use it. This keeps learnings (`.claude/skills/`) and activities (`.claude/activities/`) scoped to each project.
 
+### Option 1: Manual Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/phenricor/product-pipeline /tmp/product-pipeline
+
+# Copy commands and skills to your project
+cp -r /tmp/product-pipeline/.claude/commands/* .claude/commands/product/
+cp -r /tmp/product-pipeline/.claude/skills/* .claude/skills/product/
+
+# Clean up
+rm -rf /tmp/product-pipeline
+```
+
+To update the plugin, repeat the steps above.
+
+### Option 2: Plugin Marketplace
+
 ```bash
 # Add to your local marketplace
 plugin marketplace add https://github.com/phenricor/product-pipeline
