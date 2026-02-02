@@ -20,15 +20,20 @@ This plugin provides commands to streamline the product management workflow:
 ### Option 1: Manual Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/phenricor/product-pipeline /tmp/product-pipeline
+# 1. Clone the remote repository into a local temporary folder
+git clone https://github.com/phenricor/product-pipeline ./tmp/product-pipeline
 
-# Copy commands and skills to your project
-cp -r /tmp/product-pipeline/.claude/commands/* .claude/commands/product/
-cp -r /tmp/product-pipeline/.claude/skills/* .claude/skills/product/
+# 2. Create the destination directory structure (if it doesn't already exist)
+mkdir -p ./.claude/commands/product/ ./.claude/skills/product/
 
-# Clean up
-rm -rf /tmp/product-pipeline
+# 3. Copy the 'commands' content from the clone to your project
+cp -r ./tmp/product-pipeline/commands/* ./.claude/commands/product/
+
+# 4. Copy the 'skills' content from the clone to your project
+cp -r ./tmp/product-pipeline/skills/* ./.claude/skills/product/
+
+# 5. Remove the temporary clone directory to keep your project clean
+rm -rf ./tmp/product-pipeline
 ```
 
 To update the plugin, repeat the steps above.
