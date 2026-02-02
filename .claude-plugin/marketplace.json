@@ -5,7 +5,7 @@
   },
   "plugins": [
     {
-      "name": "product-pipeline",
+      "name": "product",
       "source": "./",
       "description": "Product management workflow automation with Azure DevOps - PRD generation, prototyping, and sync",
       "version": "1.0.0",
