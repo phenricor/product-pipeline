@@ -110,6 +110,8 @@ Review the extracted brief, paying special attention to:
 - The **Description** field which may contain a proposed solution
 - The **Acceptance Criteria** for validation scenarios
 - The **Objective** for business context
+- Do not explore the codebase yet, leave it for prototyping.
+- Avoid wireframes and drawings, prioritize pure and concise writing.
 
 ### Step 2.3: Ask Clarifying Questions (if needed)
 

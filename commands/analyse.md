@@ -111,6 +111,8 @@ Generate the PRD following the structure from prd-template skill.
 - Be proportional to complexity (simple requests = concise PRD)
 - Never assume - ask when unclear
 - Include complete message examples where applicable
+- Do not explore the codebase yet, leave it for prototyping.
+- Avoid wireframes and drawings, prioritize pure and concise writing.
 
 ### Step 2.5: Split and Save Output
 
