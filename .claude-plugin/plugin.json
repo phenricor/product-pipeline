@@ -1,0 +1,11 @@
+{
+  "name": "product-pipeline",
+  "version": "1.0.0",
+  "description": "Product management workflow automation with Azure DevOps - PRD generation, prototyping, and sync",
+  "author": { "name": "phenricor" },
+  "repository": "https://github.com/phenricor/product-pipeline",
+  "license": "MIT",
+  "keywords": ["azure-devops", "product-management", "prd", "prototypes"],
+  "commands": ["./commands/"],
+  "skills": ["./skills/"]
+}
